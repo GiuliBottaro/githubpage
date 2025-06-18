@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>El Calito</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/LogoTorretta.svg" alt="Logo de la empresa1" width="200">
+        <p class="titulo_principal">FÁBRICA DE PRODUCTOS LÁCTEOS</p>
+        <img src="imagenes/LogoCalito.svg" alt="Logo de la empresa2" width="150">
+    </header>
+
+    <main>
+        <h1>Nuestro Catálogo</h1>
+        <div class="contenedor">
+            <div class="card">
+                <h2>Dulce de Leche</h2>
+                <img src="Imagenes/DDLFamiliar2.jpeg">
+            </div>
+
+            <div class="card">
+                <h2>Manteca</h2>
+                <img src="Imagenes/MantecaCalito200g.jpeg">
+            </div>
+
+            <div class="card">
+                <h2>Quesos</h2>
+                <img src="Imagenes/QuesoCremoso.jpeg">
+            </div>
+
+            <div class="card">
+                <h2>Crema de Leche</h2>
+                <img src="Imagenes/CremaDeLeche5lts.jpeg">
+            </div>
+
+            <div class="card">
+                <h2>Ricotta</h2>
+                <img src="Imagenes/RicottaCalito.jpeg">
+            </div>
+
+            <div class="card">
+                <h2>Untables</h2>
+                <img src="Imagenes/Diseño sin título (7).png">
+            </div>
+        </div>
+
+        <div class="slogan-container">
+            <p class="slogan">Comprometidos con la calidad, la trazabilidad y el sabor auténtico de nuestros productos lácteos.</p>
+        </div>
+
+        <section>
+            <h1>Proceso de Elaboración</h1>
+            <div class="video-responsive">
+                <iframe src="https://www.youtube.com/embed/WTn12k0kRwg" 
+                    title="Video de proceso lácteo" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h1>Sonido de ambiente de donde proviene nuestra Materia Prima</h1>
+            <audio controls>
+                <source src="audio/sonido de vaca.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+        </section>
+
+        <section class="modelo_3d">
+            <h1>Modelo 3D interactivo</h1>
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.10/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/E-t6DKHkY56ykcBT/scene.splinecode"></spline-viewer>
+        </section>
+    
+    <h2>¿Dónde Estamos?</h2>
+
+    <section class="contenedor_ubi">
+        <div class="ubi_ohiggins">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.818785942008!2d-60.69718522353172!3d-34.58345155642953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8ddec51e63055%3A0x5cfb3da2b76749b3!2sEl%20Calito!5e0!3m2!1ses-419!2sar!4v1731104680795!5m2!1ses-419!2sar" width="425" height="250" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">    
+            </iframe>
+            <p class="txt_ohiggins1">B6748 O'Higgins, Provincia de Buenos Aires</p>
+        </div>
+        <div class="ubi_junin">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.003461912281!2d-60.95610632353187!3d-34.578778956182944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8eb3536a55063%3A0xfce52e93a31ea536!2sEl%20Calito!5e0!3m2!1ses-419!2sar!4v1731027606519!5m2!1ses-419!2sar" width="425" height="250" style="border: 0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="txt_junin1">Tucumán 145, B6022 Junín, Provincia de Buenos Aires</p>
+        </div>
+    </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; Giuliano Bottaro. All rights reserved 2025.</p>
+    </footer>
+</body>
+
+</html>
